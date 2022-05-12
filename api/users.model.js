@@ -6,7 +6,8 @@ const users = [
     "Luigi",
     "Marcos",
     "Geanette",
-    "Franco"
+    "Franco",
+    "Betty"
 ];
 
 async function getAll() {
@@ -22,13 +23,12 @@ async function add(user) {
     return users
 }
 
-async function find(user) {
-    users
-}
+// async function find(user) {
+//     users
+// }
 
 module.exports = {
     getAll,
     getByIndex,
     add,
-    find
 }

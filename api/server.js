@@ -6,7 +6,7 @@ server.use(express.json())
 
 
 server.get('/', (req, res) => {
-        res.send('<h1> HELLO </h1>')
+        res.send('<h1> say hello </h1>')
 })
 
 server.get('/api/users', (req, res) => {

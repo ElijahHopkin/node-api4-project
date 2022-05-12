@@ -1,7 +1,13 @@
 const express = require('express')
 
 
-const users = [];
+const users = [
+    "jonny",
+    "Luigi",
+    "Marcos",
+    "Geanette",
+    "Franco"
+];
 
 async function getAll() {
     return users;
